@@ -42,7 +42,7 @@ module scenes {
         }
 
         private _createNewEnemy() : void {
-            this._enemy = new objects.Enemy("criminal", (Math.random()*4)+1);
+            this._enemy = new objects.Enemy("criminal", Math.round((Math.random()*4)+1));
             this._setEnemyPosition();
             this._enemy.on("click", this._onEnemyClick, this);
             this.addChild(this._enemy);
