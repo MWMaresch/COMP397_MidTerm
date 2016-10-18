@@ -41,8 +41,7 @@ function init() {
         ],
         animations: {
             "criminal": { "frames": [0] },
-            "poof": { "frames": [1, 2, 3, 4, 5], "speed": 0.5, "next": false },
-            "crosshair": { "frames": [7] }
+            "poof": { "frames": [1, 2, 3, 4, 5], "speed": 0.5, "next": false }
         },
         "texturepacker": [
             "SmartUpdateHash: $TexturePacker:SmartUpdate:013a2fc3dc6ba39276db3e6758d1ddbd:84789f29f2d01b3ea1c113a3b2d1bfdc:e696b1a5c9e543dbf26d7c8d29a6d04f$",
